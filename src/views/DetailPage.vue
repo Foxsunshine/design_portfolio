@@ -100,14 +100,14 @@ onMounted(async () => {
     </div>
   </section>
   <section>
-    <div v-for="image in images" :key="image.id">
-      <AdvancedImage :cldImg="image.img" class="img-container" />
+    <div v-for="image in images" :key="image.id" class="img-container">
+      <AdvancedImage :cldImg="image.img" />
     </div>
   </section>
 </template>
 
 <style scoped>
-.img-container {
+.img-container img {
   max-width: 80vw;
 }
 .text-contanier {
