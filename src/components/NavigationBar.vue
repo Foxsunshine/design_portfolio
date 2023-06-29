@@ -83,9 +83,10 @@ function scrollHeader() {
   display: flex;
   width: 100vw;
   /* margin-top: 2rem; */
-  padding: 1.5rem 12rem;
+  padding: 1.5rem 8rem;
   justify-content: space-between;
   background-color: transparent;
+  z-index: 5;
 }
 .scroll-nav-bar {
   background-color: var(--color-background);
@@ -131,10 +132,5 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
 }
 </style>

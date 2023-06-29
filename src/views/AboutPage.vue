@@ -1,22 +1,4 @@
-<script setup>
-import { ref, onMounted } from 'vue'
-import { Cloudinary } from '@cloudinary/url-gen'
-import { AdvancedImage } from '@cloudinary/vue'
-
-// Create a Cloudinary instance and set your cloud name.
-const cld = new Cloudinary({
-  cloud: {
-    cloudName: 'dhk17n0ax'
-  }
-})
-const images = ref([])
-
-onMounted(async () => {
-  for (let i = 1; i <= 5; i++) {
-    images.value.push({ img: cld.image(`portfolio/3/${i}`), id: i })
-  }
-})
-</script>
+<script setup></script>
 <template>
   <div class="box"></div>
   <div class="text-container">
@@ -32,9 +14,6 @@ onMounted(async () => {
       strongly committed to the projects I'm assigned to, giving my best to complete the tasks with
       the best possible outcome.
     </p>
-  </div>
-  <div v-for="image in images" :key="image.id">
-    <AdvancedImage :cldImg="image.img" />
   </div>
 </template>
 <style scoped>
