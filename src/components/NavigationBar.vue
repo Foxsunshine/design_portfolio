@@ -21,7 +21,7 @@ onBeforeUnmount(() => {
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {
   // When the scroll is greater than 100 viewport height, add the scroll-header class to the header tag
-  if (this.scrollY >= 100) header.value.classList.add('scroll-nav-bar')
+  if (this.scrollY >= 50) header.value.classList.add('scroll-nav-bar')
   else header.value.classList.remove('scroll-nav-bar')
 }
 </script>
@@ -82,8 +82,8 @@ function scrollHeader() {
   right: 0;
   display: flex;
   width: 100vw;
-  /* margin-top: 2rem; */
-  padding: 1.5rem 8rem;
+
+  padding: 1.5rem 5rem;
   justify-content: space-between;
   background-color: transparent;
   z-index: 5;
@@ -132,5 +132,11 @@ nav a:first-of-type {
 }
 
 @media (min-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    padding: 1.5rem 2rem;
+  }
 }
 </style>
