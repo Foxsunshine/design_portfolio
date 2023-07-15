@@ -24,7 +24,15 @@ onMounted(async () => {
 <template>
   <section>
     <div class="text-contanier" v-if="id == 1">
-      <div><h1 class="title">ZOOMILY Branding Design</h1></div>
+      <div>
+        <h1 class="title">ZOOMILY Branding</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: Illustrator</span></li>
+            <li><span>Chief Designer: </span>Wcc</li>
+          </ul>
+        </div>
+      </div>
       <p>
         Zoomily is a pet brand for which a visual identity (VI) system has been created. The color
         scheme is inspired by the refined colors prevalent in popular Chinese court dramas from
@@ -34,7 +42,14 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 2">
-      <div><h1 class="title">Joyoung New Year Package Design</h1></div>
+      <div>
+        <h1 class="title">Joyoung Festival Gift</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: Chief Designer</span></li>
+          </ul>
+        </div>
+      </div>
       <p>
         Joyoung, as a well-known brand in the small home appliances industry, distributes New Year
         gift packs to employees and major customers to enhance brand recognition. The inspiration
@@ -45,7 +60,15 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 3">
-      <div><h1 class="title">Tencent Public Welfare Gift</h1></div>
+      <div>
+        <h1 class="title">Tencent Welfare Gift</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: Chief Designer</span></li>
+            <li><span>Studio: ThinkBig Studio</span></li>
+          </ul>
+        </div>
+      </div>
       <p>
         In Tencent's public welfare fundraising campaign, many enterprises have participated in
         creating social public welfare activities. Tencent public welfare recorded their deeds and
@@ -55,7 +78,18 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 4">
-      <div><h1 class="title">Carnivo Art Toy Design</h1></div>
+      <div>
+        <h1 class="title">Carnivo Toy Gitf</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: 3D Modeling, Package Design,</span></li>
+            <li><span>Illustrator: NieNie, Peng JingTao</span></li>
+            <li><span>IP Designer: KK</span></li>
+            <li><span>Chief Designer: Haha</span></li>
+            <li><span>Studio: ThinkBig Studio</span></li>
+          </ul>
+        </div>
+      </div>
       <p>
         For the special holiday of Children's Day, Carnival Advertising Company hopes to give each
         of its major clients a gift that brings back childhood innocence. By co-branding with the IP
@@ -65,7 +99,15 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 5">
-      <div><h1 class="title">Joyoung Recruit</h1></div>
+      <div>
+        <h1 class="title">Joyoung Recruit</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: Chief Designer</span></li>
+            <li><span>Chief Designer: </span>Hou XuDong</li>
+          </ul>
+        </div>
+      </div>
       <p>
         Campus recruitment is a crucial initiative for major companies to recruit new talent.
         Despite being a renowned brand in the small home appliances industry, Joyoung is perceived
@@ -77,7 +119,17 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 6">
-      <div><h1 class="title">Tencent DuanWu Festival Gift</h1></div>
+      <div>
+        <h1 class="title">Tencent Festival Gift</h1>
+        <div class="character-box">
+          <ul>
+            <li><span class="My-character">My Character: 3D Modeling</span></li>
+            <li><span>Illustrator: NieNie, Peng JingTao</span></li>
+            <li><span>Chief Designer: Haha</span></li>
+            <li><span>Studio: ThinkBig Studio</span></li>
+          </ul>
+        </div>
+      </div>
       <p>
         The greatest challenge for Dragon Boat Festival gift packs in the advertising industry is
         how to make them both creative and practical. Skateboarding is a popular sport among young
@@ -89,7 +141,21 @@ onMounted(async () => {
       </p>
     </div>
     <div class="text-contanier" v-if="id == 7">
-      <div><h1 class="title">Tencent Esports Gift Pack</h1></div>
+      <div>
+        <h1 class="title">Tencent Esports Gift</h1>
+        <div class="character-box">
+          <ul>
+            <li>
+              <span class="My-character"
+                >My Character: Contents (Calendar) Design, Photography
+              </span>
+            </li>
+            <li><span>Illustrator: Peng JingTao</span></li>
+            <li><span>Chief Designer: Haha</span></li>
+            <li><span>Studio: ThinkBig Studio</span></li>
+          </ul>
+        </div>
+      </div>
       <p>
         The Tencent Esports New Year gift pack, styled in the form of a chip bag, contains creative
         items like a calendar, stickers, and more. The centerpiece of the gift pack is the creative
@@ -124,5 +190,13 @@ onMounted(async () => {
 .text-contanier p {
   text-align: justify;
   margin-top: 1rem;
+}
+.character-box {
+  margin-top: 1.7rem;
+  font-size: small;
+}
+
+.My-character {
+  background: linear-gradient(to top, hsla(160, 100%, 37%, 1) 1%, transparent 50%);
 }
 </style>
