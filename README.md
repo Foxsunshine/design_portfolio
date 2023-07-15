@@ -1,41 +1,18 @@
-# portfolio
+# 💼 Graphic Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+**_Welcome to my Graphic Design portfolio, created with HTML 5, CSS 3 and JavaScript._**
+**\_[Click here to Visit](https://jiangchengportfolio.netlify.app/)**
 
-## Recommended IDE Setup
+- 这是我的平面设计作品集，这 7 个作品里有个人项目也有团队项目。在作为设计师的三年时间里，我遇到了很好的上司和同事，也很享受设计项目实际落地的成就感。
+  虽然目前转行成为了程序员，但我想那段职场经历依然给我提供了很大的帮助。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- 私のグラフィックデザインのポートフォリオです。個人プロジェクトとチームプロジェクトの両方を含む 7 つのプロジェクトからなります。デザイナーとしての 3 年間で、私は優れた上司と同僚と共に働く喜びを味わい、デザインが実現するときの達成感を本当に楽しんでおりました。現在はプログラマーに転職しましたが、その過去のデザイン経験は私にまだ大いに助けとなっていると思います。
 
-## Customize configuration
+- This is my portfolio of graphic design work, which consists of seven projects, including both individual and team works. During my three years as a designer, I had the pleasure of working with great superiors and colleagues, and I really enjoyed the sense of accomplishment from seeing a design project come to real world. Although I have now transitioned to a programmer, I believe that past experience still provides me with considerable assistance.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🛠️ Framework and libraries used:
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Vue.js 3](https://vuejs.org/)
+- [Swiper](https://swiperjs.com/)
+- [Cloudinary](https://cloudinary.com/)
